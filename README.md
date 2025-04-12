@@ -2,6 +2,29 @@
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
 
+To Run the backend just open the code using VS-Code after open on root directory create .env then just copy the below credentials
+
+# Server
+HOST=0.0.0.0
+PORT=1337
+
+# Secrets
+APP_KEYS=/KTpaHuBs6x6Sc6/XIiqqg==,w7RAGJ1xpxSp862ZPB97tg==,J1peMvTfDEZOVoVljERtPg==,8sNoJcddumh5sTk/9JO+SA==
+API_TOKEN_SALT=Mz8mBMpm6/dVULtJM1zTAQ==
+ADMIN_JWT_SECRET=St80e850BHnz8oc3Ooo9Ug==
+TRANSFER_TOKEN_SALT=oiHJ8f0INPHzfgQ682SIAw==
+
+# Database
+DATABASE_CLIENT=mysql
+DATABASE_HOST=srv605.hstgr.io
+DATABASE_PORT=3306
+DATABASE_NAME=u594057671_resu_ai
+DATABASE_USERNAME=u594057671_resu_ai
+DATABASE_PASSWORD=Rejaul4518
+DATABASE_SSL=false
+DATABASE_FILENAME=
+JWT_SECRET=K9zFAgs7KDahHKZr00Z96w==
+
 ### `develop`
 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
